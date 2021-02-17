@@ -4,16 +4,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
     <title>Rafał Piotrowski</title>
   </head>
+  <style type="text/css"> 
+    div.container{
+      background-color: #D3D3D3;
+      padding-top: 10%;
+      border: 4px solid blue;
+      width: 1920px;
+      height: 1080px;
+    }
+    img.profilePicture{
+      border-radius: 50%;
+      padding: 20px;
+    }
+    div.left{
+      background-color: #344154;
+      width: 20%;
+    }
+    div.bio{
+      padding: 20px;
+    }
+    /*pasek po prawej*/
+    div.name{
+      background-color: #dde1e4;
+    }
+  </style>
   <body>
-    <div class="container">
+  <div class="container">
+    <!-- lewa strona -->
+    <div class="left">
       <!-- zdjecie profilowe -->
-      <img src="C:\Users\Elitebook\Desktop\cv_strona\images\profile.jpg" class="rounded-circle" alt="profilowe" width="200" height="200">
+      <div class="photo">
+        <img src="images\profile.jpg" class="profilePicture" alt="profilowe" width="200" height="200">
+      </div>
+      <!-- bio -->
+      <div class="bio">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </div>
 
 
   </body>
